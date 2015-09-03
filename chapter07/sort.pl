@@ -10,8 +10,9 @@ foreach my $value (@rtn) {
   ++$count;
 }
 
+$count = 0;
 foreach my $value (@array) {
   printf "%d : [%s]\n", $count, $value;
-  
+  ++$count;
 }
 
